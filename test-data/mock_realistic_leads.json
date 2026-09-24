@@ -1,0 +1,286 @@
+{
+  "scenario": {
+    "company": "RelayCRM",
+    "product": "B2B sales and customer engagement platform",
+    "note": "All leads and companies are fictional but modeled after plausible B2B SaaS inbound situations.",
+    "important": "The evaluation object is ground truth for the PoC. Remove it before sending a lead to Laya or Jev."
+  },
+  "leads": [
+    {
+      "id": "lead_001",
+      "company": "Northwind Dental Group",
+      "employee_count": 620,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Healthcare",
+      "source": "Demo request",
+      "product_interest": "CRM migration and sales automation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 140,
+      "requested_features": [
+        "SSO",
+        "SCIM",
+        "Salesforce migration",
+        "audit logs"
+      ],
+      "inbound_message": "We are consolidating two sales teams after an acquisition. Security will require SSO, SCIM, audit logs and a vendor review. Procurement expects a formal security package before we can run a 140-seat rollout.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Large North American healthcare account with Salesforce migration, security review, identity requirements and procurement."
+      }
+    },
+    {
+      "id": "lead_002",
+      "company": "Brightline Creative",
+      "employee_count": 28,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Marketing agency",
+      "source": "Website form",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 12,
+      "requested_features": [
+        "pipeline automation",
+        "SMS follow-up",
+        "calendar booking"
+      ],
+      "inbound_message": "We're a 12-person sales and account team. We mainly want to move our existing GoHighLevel pipelines, texting automations and booking workflows without a long implementation.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "Small US agency with a straightforward GoHighLevel and marketing-automation migration."
+      }
+    },
+    {
+      "id": "lead_003",
+      "company": "AlpenWerk GmbH",
+      "employee_count": 240,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Manufacturing",
+      "source": "Partner referral",
+      "product_interest": "Sales CRM",
+      "current_crm": "Legacy on-premise CRM",
+      "estimated_seats": 55,
+      "requested_features": [
+        "EU data residency",
+        "GDPR controls",
+        "ERP integration"
+      ],
+      "inbound_message": "Our sales organization is split across Germany and Austria. Data must remain in the EU, our legal team will review the DPA, and the rollout will need to integrate with our existing ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "DACH manufacturing account with GDPR, EU residency and regional rollout requirements."
+      }
+    },
+    {
+      "id": "lead_004",
+      "company": "MaisonFleet SAS",
+      "employee_count": 980,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Conference scan",
+      "product_interest": "Enterprise CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 220,
+      "requested_features": [
+        "Salesforce migration",
+        "multi-country permissions",
+        "SSO",
+        "custom procurement"
+      ],
+      "inbound_message": "We are evaluating a replacement for a business unit operating in France, Belgium and Spain. The project will go through a French procurement process and requires role-based access for several regional teams.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "Large French logistics buyer with multi-country EMEA rollout and formal procurement."
+      }
+    },
+    {
+      "id": "lead_005",
+      "company": "PacificPay",
+      "employee_count": 730,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Demo request",
+      "product_interest": "Enterprise sales platform",
+      "current_crm": "HubSpot Enterprise",
+      "estimated_seats": 180,
+      "requested_features": [
+        "SSO",
+        "regional permissions",
+        "API integration",
+        "multi-country rollout"
+      ],
+      "inbound_message": "We want to standardize our sales process across Singapore, Australia and India. Identity, regional permissions and API access are mandatory because our internal systems will sync customer and compliance status into the CRM.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "APAC fintech enterprise with multi-country rollout and complex integration requirements."
+      }
+    },
+    {
+      "id": "lead_006",
+      "company": "MercadoVista",
+      "employee_count": 110,
+      "country": "Mexico",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Paid search",
+      "product_interest": "Sales CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 25,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "email sequences"
+      ],
+      "inbound_message": "Nuestro equipo comercial está creciendo y queremos migrar desde HubSpot sin interrumpir el seguimiento de oportunidades. Shopify is central to our workflow and our sales managers can work in English or Spanish.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Latin American mid-market e-commerce buyer with HubSpot migration and Spanish-language context."
+      }
+    },
+    {
+      "id": "lead_007",
+      "company": "TinySeed Labs",
+      "employee_count": 42,
+      "country": "United States",
+      "region": "North America",
+      "industry": "B2B SaaS",
+      "source": "Founder referral",
+      "product_interest": "Customer and partner CRM",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 38,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "security review",
+        "custom roles"
+      ],
+      "inbound_message": "We're only 42 employees, but the platform would manage relationships with roughly 1,200 external contractors. Our customers require SAML, SCIM and a completed security review before we can put contractor data into a new vendor. Legal is also asking for a negotiated DPA.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "Small company by employee count, but the buying motion is enterprise-grade: 1,200 external identities, SSO/SCIM, security review and legal negotiation."
+      }
+    },
+    {
+      "id": "lead_008",
+      "company": "GlobalParts North America",
+      "employee_count": 1800,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Industrial distribution",
+      "source": "Website form",
+      "product_interest": "Team CRM pilot",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 8,
+      "requested_features": [
+        "basic pipeline",
+        "email sync"
+      ],
+      "inbound_message": "This is only for our eight-person aftermarket sales team. Corporate Dynamics is staying in place. We need a quick standalone pilot for one department with email sync and a basic opportunity pipeline. No SSO, procurement project or company-wide rollout is planned.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "edge",
+        "reason": "The parent company is large, but this is a small departmental pilot with a straightforward mid-market sales motion rather than an enterprise rollout."
+      }
+    },
+    {
+      "id": "lead_009",
+      "company": "Kiteframe Studio",
+      "employee_count": 18,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Digital agency",
+      "source": "Organic search",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 6,
+      "requested_features": [
+        "pipeline import",
+        "booking calendar",
+        "email automation"
+      ],
+      "inbound_message": "We're a small English-speaking agency in Berlin. We just need our GoHighLevel contacts and pipeline moved over, plus booking and email follow-ups. We don't need a German-language sales process or custom legal terms.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "Geographically DACH, but the lead explicitly describes a simple English-speaking SMB agency motion aligned with Jordan's specialty."
+      }
+    },
+    {
+      "id": "lead_010",
+      "company": "Harbor Health Analytics",
+      "employee_count": 63,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Healthcare technology",
+      "source": "Outbound reply",
+      "product_interest": "Sales CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 30,
+      "requested_features": [
+        "SSO",
+        "audit logs",
+        "security questionnaire",
+        "Salesforce-compatible API"
+      ],
+      "inbound_message": "We are small, but most of our customers are hospital systems. Before we can use a new CRM, our security team needs to complete a vendor questionnaire and validate SSO, audit logs and data handling. We expect legal review as well.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "Small employee count conflicts with a regulated, security-heavy healthcare buying process that matches the enterprise specialist."
+      }
+    },
+    {
+      "id": "lead_011",
+      "company": "Southern Cross Growth",
+      "employee_count": 54,
+      "country": "Australia",
+      "region": "APAC",
+      "industry": "Marketing agency",
+      "source": "YouTube",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 16,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS automation",
+        "calendar booking"
+      ],
+      "inbound_message": "We're an agency in Melbourne and want to migrate our existing HighLevel setup. This is a straightforward move for 16 users; we care more about getting live quickly than custom integrations or procurement.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "APAC geography points toward Priya, but the actual buying motion is a simple agency and GoHighLevel migration that directly matches Jordan's global SMB specialization."
+      }
+    },
+    {
+      "id": "lead_012",
+      "company": "VivaComércio",
+      "employee_count": 92,
+      "country": "Brazil",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Website form",
+      "product_interest": "Sales CRM",
+      "current_crm": "Unknown",
+      "estimated_seats": null,
+      "requested_features": [],
+      "inbound_message": "Olá, queremos entender se a plataforma serviria para nossa operação comercial. Precisamos conversar em português e ainda estamos definindo número de usuários, integrações e requisitos.",
+      "evaluation": {
+        "expected_route": "manual_review",
+        "difficulty": "ambiguous",
+        "reason": "The obvious regional rep does not speak Portuguese and the lead has not supplied enough implementation detail to justify a confident specialist route."
+      }
+    }
+  ]
+}

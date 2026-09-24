@@ -1,0 +1,153 @@
+{
+  "scenario": {
+    "company": "RelayCRM",
+    "product": "B2B sales and customer engagement platform",
+    "routing_goal": "Assign a new inbound lead to the sales representative most suited to the buying motion, geography, language, domain needs, and implementation complexity.",
+    "note": "All people and companies in this dataset are fictional. Rep profiles intentionally overlap so routing cannot always be reduced to one field."
+  },
+  "reps": [
+    {
+      "id": "maya_chen",
+      "name": "Maya Chen",
+      "role": "Senior Enterprise Account Executive",
+      "primary_regions": ["United States", "Canada"],
+      "secondary_regions": ["Global strategic accounts"],
+      "languages": ["English"],
+      "segments": ["Enterprise", "Complex mid-market"],
+      "typical_company_size": "500+ employees, or smaller organizations with enterprise-grade buying complexity",
+      "specialties": [
+        "Salesforce migrations",
+        "SSO and SCIM",
+        "Security reviews",
+        "Legal and procurement-heavy deals",
+        "Large multi-team rollouts"
+      ],
+      "industries": ["Healthcare", "Financial services", "B2B SaaS"],
+      "current_open_opportunities": 6,
+      "soft_capacity": 10,
+      "routing_criteria": "Best for North American enterprise or unusually complex deals: Salesforce migration, SSO/SCIM, security review, procurement, regulated buyers, or large multi-team rollouts."
+    },
+    {
+      "id": "luis_ortega",
+      "name": "Luis Ortega",
+      "role": "Mid-Market Account Executive",
+      "primary_regions": ["United States", "Canada", "Latin America"],
+      "secondary_regions": [],
+      "languages": ["English", "Spanish"],
+      "segments": ["SMB", "Mid-market"],
+      "typical_company_size": "75-499 employees",
+      "specialties": [
+        "HubSpot migrations",
+        "E-commerce sales teams",
+        "Fast-moving evaluations",
+        "Spanish-language buying processes",
+        "Standard integrations"
+      ],
+      "industries": ["E-commerce", "SaaS", "Professional services"],
+      "current_open_opportunities": 5,
+      "soft_capacity": 9,
+      "routing_criteria": "Best for Americas SMB/mid-market buyers, especially e-commerce and HubSpot migrations, with standard integrations and relatively fast sales cycles. Supports English and Spanish only. Do not route leads that explicitly require another language unless they can conduct the sales process in English or Spanish."
+    },
+    {
+      "id": "anna_keller",
+      "name": "Anna Keller",
+      "role": "DACH Account Executive",
+      "primary_regions": ["Germany", "Austria", "Switzerland"],
+      "secondary_regions": ["European Union"],
+      "languages": ["German", "English"],
+      "segments": ["Mid-market", "Enterprise"],
+      "typical_company_size": "100-1500 employees",
+      "specialties": [
+        "GDPR-sensitive deployments",
+        "EU data residency",
+        "German-language procurement",
+        "Manufacturing sales organizations",
+        "European security requirements"
+      ],
+      "industries": ["Manufacturing", "Industrial technology", "B2B SaaS"],
+      "current_open_opportunities": 4,
+      "soft_capacity": 8,
+      "routing_criteria": "Best for DACH buyers, German-language procurement, GDPR/EU data-residency requirements, and mid-market or enterprise manufacturing and B2B technology accounts."
+    },
+    {
+      "id": "priya_nair",
+      "name": "Priya Nair",
+      "role": "APAC Enterprise Account Executive",
+      "primary_regions": [
+        "Singapore",
+        "India",
+        "Australia",
+        "New Zealand",
+        "Japan",
+        "Southeast Asia"
+      ],
+      "secondary_regions": ["Global APAC-led accounts"],
+      "languages": ["English", "Hindi"],
+      "segments": ["Mid-market", "Enterprise"],
+      "typical_company_size": "200+ employees, or complex APAC deployments",
+      "specialties": [
+        "Multi-country APAC rollouts",
+        "Complex API integrations",
+        "Fintech buyers",
+        "Identity and access requirements",
+        "Regional implementation planning"
+      ],
+      "industries": ["Fintech", "SaaS", "Technology", "Financial services"],
+      "current_open_opportunities": 5,
+      "soft_capacity": 9,
+      "routing_criteria": "Best for APAC mid-market/enterprise, especially fintech, multi-country rollouts, complex integrations, identity requirements, and regional implementation complexity."
+    },
+    {
+      "id": "jordan_brooks",
+      "name": "Jordan Brooks",
+      "role": "SMB Account Executive",
+      "primary_regions": ["United States", "Canada"],
+      "secondary_regions": ["Global English-speaking SMB inbound"],
+      "languages": ["English"],
+      "segments": ["Small business", "Startup"],
+      "typical_company_size": "1-74 employees",
+      "specialties": [
+        "GoHighLevel migrations",
+        "Marketing automation",
+        "Agencies",
+        "Local service businesses",
+        "Simple fast-start deployments"
+      ],
+      "industries": ["Marketing agencies", "Local services", "Startups"],
+      "current_open_opportunities": 7,
+      "soft_capacity": 14,
+      "routing_criteria": "Best for small, English-speaking buyers with straightforward deployments, agencies, local services, startups, GoHighLevel migrations, and marketing-automation use cases."
+    },
+    {
+      "id": "sophie_martin",
+      "name": "Sophie Martin",
+      "role": "EMEA Enterprise Account Executive",
+      "primary_regions": [
+        "France",
+        "United Kingdom",
+        "Ireland",
+        "Benelux",
+        "Southern Europe"
+      ],
+      "secondary_regions": ["EMEA outside DACH"],
+      "languages": ["French", "English"],
+      "segments": ["Mid-market", "Enterprise"],
+      "typical_company_size": "250+ employees, or complex EMEA buying motions",
+      "specialties": [
+        "French-language enterprise sales",
+        "Complex procurement",
+        "Multi-country EMEA deployments",
+        "Salesforce integrations",
+        "Professional services and logistics"
+      ],
+      "industries": [
+        "Logistics",
+        "Professional services",
+        "Enterprise software"
+      ],
+      "current_open_opportunities": 5,
+      "soft_capacity": 9,
+      "routing_criteria": "Best for EMEA outside DACH, especially French-speaking or enterprise buyers, multi-country deployments, Salesforce integrations, logistics/professional-services accounts, and complex procurement."
+    }
+  ]
+}
