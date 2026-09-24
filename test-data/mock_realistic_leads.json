@@ -281,6 +281,2099 @@
         "difficulty": "ambiguous",
         "reason": "The obvious regional rep does not speak Portuguese and the lead has not supplied enough implementation detail to justify a confident specialist route."
       }
+    },
+    {
+      "id": "lead_013",
+      "company": "CedarVale Clinical Networks",
+      "employee_count": 460,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Healthcare",
+      "source": "Security webinar",
+      "product_interest": "Enterprise CRM consolidation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 125,
+      "requested_features": [
+        "Salesforce migration",
+        "SAML SSO",
+        "SCIM",
+        "audit logs"
+      ],
+      "inbound_message": "Three clinic networks are merging their commercial operations. We need to preserve Salesforce activity history for 125 users, provision access through Okta, and complete privacy, security, and procurement reviews before our fiscal year closes.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Maya is the strongest fit for a Canadian healthcare consolidation involving Salesforce, SSO/SCIM, security, and procurement; Luis and Jordan suit simpler Americas motions, while Anna, Priya, and Sophie specialize in DACH, APAC, and non-DACH EMEA respectively."
+      }
+    },
+    {
+      "id": "lead_014",
+      "company": "NubeMercado Andino",
+      "employee_count": 185,
+      "country": "Colombia",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Spanish-language landing page",
+      "product_interest": "Sales CRM and commerce workflows",
+      "current_crm": "HubSpot Professional",
+      "estimated_seats": 42,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "WhatsApp activity capture",
+        "email sequences"
+      ],
+      "inbound_message": "Buscamos migrar 42 usuarios de HubSpot y conectar dos tiendas Shopify sin frenar la campana de fin de ano. La evaluacion y la capacitacion deben ser en espanol; preferimos una implementacion estandar en menos de seis semanas.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Luis uniquely combines Spanish, Latin American coverage, e-commerce, and HubSpot migration expertise for this fast standard rollout; Maya is unnecessarily enterprise-focused, Jordan lacks Spanish, and Anna, Priya, and Sophie cover other regions and buying motions."
+      }
+    },
+    {
+      "id": "lead_015",
+      "company": "DonauForm Anlagenbau",
+      "employee_count": 670,
+      "country": "Austria",
+      "region": "DACH",
+      "industry": "Manufacturing",
+      "source": "ERP implementation partner",
+      "product_interest": "Regional sales CRM",
+      "current_crm": "SAP CRM",
+      "estimated_seats": 96,
+      "requested_features": [
+        "EU data residency",
+        "SAP integration",
+        "GDPR controls",
+        "German-language enablement"
+      ],
+      "inbound_message": "Unsere Vertriebs- und Serviceteams in Osterreich und Deutschland benotigen eine gemeinsame Losung. Vertragsverhandlung und Schulung erfolgen auf Deutsch; EU-Datenhaltung und die Anbindung an SAP sind zwingend erforderlich.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "Anna directly matches the Austrian manufacturing account, German-language process, SAP-adjacent deployment, GDPR, and EU residency; Maya, Luis, Priya, Jordan, and Sophie lack her combined DACH language and industrial specialization."
+      }
+    },
+    {
+      "id": "lead_016",
+      "company": "Kisetsu Ledger Systems",
+      "employee_count": 310,
+      "country": "Japan",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Cloud marketplace",
+      "product_interest": "APAC partner sales platform",
+      "current_crm": "Zoho CRM",
+      "estimated_seats": 74,
+      "requested_features": [
+        "REST API",
+        "SAML SSO",
+        "country-level permissions",
+        "sandbox environment"
+      ],
+      "inbound_message": "Our English-speaking regional team is launching in Japan, Singapore, and Australia. We need an API connection to our underwriting platform, separate country permissions, and SAML for 74 users; Tokyo legal has confirmed the buying process can run in English.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "edge",
+        "reason": "Priya fits the APAC-led fintech rollout, multi-country permissions, API, and identity requirements, and the explicit English process removes a language concern; Maya, Luis, Anna, Jordan, and Sophie lack the same APAC enterprise implementation alignment."
+      }
+    },
+    {
+      "id": "lead_017",
+      "company": "Copper Finch Media",
+      "employee_count": 24,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Marketing agency",
+      "source": "Creator newsletter",
+      "product_interest": "Agency marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 9,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS follow-up",
+        "booking calendar",
+        "template pipelines"
+      ],
+      "inbound_message": "We are a nine-user agency team and mostly need our HighLevel snapshots, appointment calendars, and text follow-ups moved over. The owner will decide after a trial, and we want to launch ourselves next month.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "Jordan is tailored to a small US agency needing a self-serve GoHighLevel and marketing-automation launch; Luis is broader mid-market, Maya handles complexity, and Anna, Priya, and Sophie focus on regional enterprise motions absent here."
+      }
+    },
+    {
+      "id": "lead_018",
+      "company": "VoieClaire Fret",
+      "employee_count": 1150,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Paris trade show",
+      "product_interest": "Enterprise account management",
+      "current_crm": "Microsoft Dynamics 365",
+      "estimated_seats": 205,
+      "requested_features": [
+        "multi-country permissions",
+        "French-language rollout",
+        "custom procurement terms",
+        "carrier portal API"
+      ],
+      "inbound_message": "Nous preparons un appel d'offres pour nos equipes en France, Belgique et Italie. Le deploiement de 205 comptes exige une gouvernance par pays, une integration avec notre portail transporteurs et des negociations contractuelles en francais.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "Sophie is the clear match for French-language logistics procurement and a multi-country EMEA deployment; Maya, Luis, Anna, Priya, and Jordan do not combine French fluency, regional ownership, logistics, and enterprise rollout expertise."
+      }
+    },
+    {
+      "id": "lead_019",
+      "company": "AsterQuill Risk Labs",
+      "employee_count": 58,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Compliance roundtable",
+      "product_interest": "Regulated customer CRM",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 27,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "immutable audit logs",
+        "vendor security review"
+      ],
+      "inbound_message": "Headcount makes us look like a startup, but we administer restricted counterparty records for regional banks. Our CISO requires SAML, automated deprovisioning, immutable activity logs, penetration-test evidence, and negotiated incident terms before any pilot.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "Maya's regulated financial-services and security-review experience outweighs the 58-person headcount; Jordan and Luis lack the required enterprise controls, while Anna, Priya, and Sophie bring regional strengths irrelevant to this US-led deal."
+      }
+    },
+    {
+      "id": "lead_020",
+      "company": "BrisaCart Digital",
+      "employee_count": 88,
+      "country": "Spain",
+      "region": "EMEA",
+      "industry": "E-commerce",
+      "source": "HubSpot migration guide",
+      "product_interest": "Commerce sales CRM",
+      "current_crm": "HubSpot Starter",
+      "estimated_seats": 21,
+      "requested_features": [
+        "HubSpot migration",
+        "WooCommerce integration",
+        "sales sequences"
+      ],
+      "inbound_message": "Somos un equipo comercial de 21 personas y queremos mantener la evaluacion en espanol. Solo necesitamos trasladar HubSpot, conectar WooCommerce y recrear tres secuencias; no hay requisitos de seguridad especiales ni proceso formal de compras.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "edge",
+        "reason": "Although Spain falls in Sophie's territory, Luis's Spanish fluency plus exact HubSpot, e-commerce, and fast standard-migration fit outweigh geography; Maya, Anna, and Priya target complex enterprise work, while Jordan lacks Spanish and the HubSpot specialty."
+      }
+    },
+    {
+      "id": "lead_021",
+      "company": "Rheinblick Sensorik",
+      "employee_count": 46,
+      "country": "Switzerland",
+      "region": "DACH",
+      "industry": "Industrial technology",
+      "source": "German product webinar",
+      "product_interest": "Distributor relationship CRM",
+      "current_crm": "Pipedrive",
+      "estimated_seats": 18,
+      "requested_features": [
+        "EU-hosted data",
+        "German-language onboarding",
+        "distributor permissions",
+        "ERP webhooks"
+      ],
+      "inbound_message": "Trotz unserer kleinen Belegschaft verwalten wir sensible Konstruktionsprojekte mit Vertriebspartnern in der Schweiz und Deutschland. Einkauf und Einfuhrung mussen auf Deutsch erfolgen; zudem verlangen unsere Kunden europaisches Hosting und getrennte Partnerzugriffe.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "Anna's Swiss coverage, German fluency, industrial-technology focus, and European data expertise outweigh the SMB headcount; Jordan lacks German and compliance depth, and Maya, Luis, Priya, and Sophie are weaker on this specifically DACH process."
+      }
+    },
+    {
+      "id": "lead_022",
+      "company": "KoshaPay Infrastructure",
+      "employee_count": 840,
+      "country": "India",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Executive referral",
+      "product_interest": "Enterprise revenue platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 190,
+      "requested_features": [
+        "core banking API",
+        "SCIM",
+        "regional workspaces",
+        "phased data migration"
+      ],
+      "inbound_message": "We are replacing the CRM used by revenue teams in India, Singapore, and Indonesia. Phase one covers 190 seats and must synchronize account risk flags from our banking platform, automate identity lifecycle, and separate records by regulated entity.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "Priya directly matches this Indian fintech's multi-country APAC rollout, complex banking API, identity lifecycle, and regional planning; Maya's Salesforce skill is secondary, and Luis, Anna, Jordan, and Sophie lack comparable APAC fintech ownership."
+      }
+    },
+    {
+      "id": "lead_023",
+      "company": "MapleSpark Home Services",
+      "employee_count": 92,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Local services",
+      "source": "Implementation tutorial",
+      "product_interest": "Lead follow-up automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 7,
+      "requested_features": [
+        "GoHighLevel contact import",
+        "call reminders",
+        "quote follow-up",
+        "calendar booking"
+      ],
+      "inbound_message": "We have 92 technicians, but only seven office staff will use the system. We want a simple HighLevel import and reminders for estimates that have not been accepted. There is no IT integration, legal review, or broader rollout.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "Jordan's Canadian local-services and GoHighLevel fast-start expertise matches the seven-seat scope despite total headcount; Luis is less specialized in this SMB motion, Maya is excessive, and Anna, Priya, and Sophie have no relevant regional or complexity advantage."
+      }
+    },
+    {
+      "id": "lead_024",
+      "company": "Meridian Crown Advisory",
+      "employee_count": 230,
+      "country": "Belgium",
+      "region": "EMEA",
+      "industry": "Professional services",
+      "source": "Salesforce consulting partner",
+      "product_interest": "Client development platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 68,
+      "requested_features": [
+        "Salesforce migration",
+        "matter-system integration",
+        "French and English training",
+        "role-based access"
+      ],
+      "inbound_message": "Our Brussels advisory teams serve clients across Belgium, France, and Luxembourg. We need bilingual workshops, migration of seven years of Salesforce relationships, and an integration to our matter system; the partnership will approve bespoke data-processing terms.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "edge",
+        "reason": "Sophie combines Benelux ownership, French fluency, professional-services expertise, Salesforce work, and cross-border procurement; Maya shares enterprise migration skills but not the EMEA context, while Luis, Anna, Priya, and Jordan fit neither the region nor motion as closely."
+      }
+    },
+    {
+      "id": "lead_025",
+      "company": "Ironclad Harbor Underwriters",
+      "employee_count": 275,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Vendor comparison site",
+      "product_interest": "Broker and account CRM",
+      "current_crm": "SugarCRM",
+      "estimated_seats": 82,
+      "requested_features": [
+        "SSO",
+        "audit export",
+        "data retention policies",
+        "custom legal terms"
+      ],
+      "inbound_message": "We initially expected a normal 82-seat replacement, but compliance has added annual access certification, seven-year retention, regulator-ready audit exports, and a full third-party risk assessment. Our broker teams are all US-based.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "ambiguous",
+        "reason": "Maya narrowly wins because the US financial-services deal has evolved into a security, retention, legal, and procurement-heavy evaluation; Luis could handle its size but not its complexity, Jordan is too SMB-focused, and Anna, Priya, and Sophie lack regional justification."
+      }
+    },
+    {
+      "id": "lead_026",
+      "company": "BorealMetric Software",
+      "employee_count": 540,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "B2B SaaS",
+      "source": "Free trial",
+      "product_interest": "Departmental sales CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 24,
+      "requested_features": [
+        "HubSpot migration",
+        "Slack integration",
+        "email sync"
+      ],
+      "inbound_message": "This purchase is only for the 24-person channel-sales group; the rest of our 540-person company is not changing systems. The VP owns the budget, security accepts standard terms, and we want contacts, deals, Slack alerts, and email live within 30 days.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "ambiguous",
+        "reason": "Luis's Canadian mid-market coverage, HubSpot migration skill, and fast evaluation style outweigh the enterprise-looking company headcount; Maya is unnecessary for a 24-seat standard deployment, Jordan is less suited to the parent scale, and Anna, Priya, and Sophie lack regional fit."
+      }
+    },
+    {
+      "id": "lead_027",
+      "company": "Veldkern Motion Works",
+      "employee_count": 390,
+      "country": "Netherlands",
+      "region": "EMEA",
+      "industry": "Manufacturing",
+      "source": "Data residency whitepaper",
+      "product_interest": "European sales operations CRM",
+      "current_crm": "Custom on-premise CRM",
+      "estimated_seats": 61,
+      "requested_features": [
+        "EU data residency",
+        "GDPR deletion workflows",
+        "German-language procurement",
+        "ERP integration"
+      ],
+      "inbound_message": "Our headquarters is Dutch, but the buying committee and most users sit at our German production subsidiary. The RFP, contract negotiation, and rollout workshops will be in German, with strict EU hosting and deletion requirements plus an interface to the factory ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "ambiguous",
+        "reason": "Anna narrowly outranks Sophie because the operative buyer, language, manufacturing users, GDPR controls, and ERP work are German despite Dutch headquarters; Maya, Luis, Priya, and Jordan lack both DACH-language and European industrial-deployment strengths."
+      }
+    },
+    {
+      "id": "lead_028",
+      "company": "TuiRidge Freight Cloud",
+      "employee_count": 260,
+      "country": "New Zealand",
+      "region": "APAC",
+      "industry": "Logistics technology",
+      "source": "API documentation signup",
+      "product_interest": "Regional revenue operations platform",
+      "current_crm": "Zoho CRM",
+      "estimated_seats": 66,
+      "requested_features": [
+        "custom API integration",
+        "Australia and New Zealand workspaces",
+        "SAML SSO",
+        "implementation sequencing"
+      ],
+      "inbound_message": "Our freight software teams in Auckland and Sydney need separate workspaces but shared parent accounts. We will sync shipment health from our platform through a custom API, require SAML, and need a staged cutover around two different financial calendars.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "ambiguous",
+        "reason": "Priya's New Zealand and Australia coverage, complex API expertise, identity focus, and regional sequencing outweigh Sophie's logistics specialty; Maya, Luis, Anna, and Jordan lack the APAC multi-country implementation fit required here."
+      }
+    },
+    {
+      "id": "lead_029",
+      "company": "LanternMoss Collective",
+      "employee_count": 31,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Marketing agency",
+      "source": "Community Slack",
+      "product_interest": "Client acquisition automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 11,
+      "requested_features": [
+        "GoHighLevel migration",
+        "lead nurture templates",
+        "calendar booking"
+      ],
+      "inbound_message": "We're an English-only boutique agency serving startups remotely. Eleven people need our HighLevel contacts, nurture campaigns, and calendars moved as-is. We have no custom integrations, local data rules, procurement team, or plans to expand the rollout.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "ambiguous",
+        "reason": "Jordan's global English-speaking SMB remit and exact agency, GoHighLevel, and simple-launch strengths outweigh Singapore geography; Priya is geared to complex APAC deployments, while Maya, Luis, Anna, and Sophie offer no stronger language, product, or motion match."
+      }
+    },
+    {
+      "id": "lead_030",
+      "company": "AtlasLigne Transit",
+      "employee_count": 180,
+      "country": "Morocco",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "French-language demo request",
+      "product_interest": "Freight sales CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 49,
+      "requested_features": [
+        "Salesforce data migration",
+        "French-language training",
+        "custom approval workflow",
+        "EU customer data controls"
+      ],
+      "inbound_message": "Notre siege est a Casablanca, avec des commerciaux en France et au Maroc. Le comite souhaite mener l'evaluation en francais, migrer les donnees Salesforce et appliquer des controles specifiques aux dossiers de clients europeens; un appel d'offres formel est prevu.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "ambiguous",
+        "reason": "Sophie is best for this non-DACH EMEA logistics account because the evaluation is French, spans Morocco and France, includes Salesforce, EU controls, and formal procurement; Maya, Luis, Anna, Priya, and Jordan each miss the combined language and regional buying motion."
+      }
+    },
+    {
+      "id": "lead_031",
+      "company": "ClearVault Benefits Exchange",
+      "employee_count": 1380,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Healthcare technology",
+      "source": "Analyst report",
+      "product_interest": "Enterprise sales transformation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 315,
+      "requested_features": [
+        "Salesforce migration",
+        "SCIM",
+        "field-level audit history",
+        "multi-team rollout"
+      ],
+      "inbound_message": "We are consolidating employer, broker, and health-plan sales teams onto one platform. The 315-seat program has a steering committee, phased Salesforce migration, identity governance, healthcare data review, and a negotiated master agreement.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Maya directly fits the large US healthcare account, 315-seat multi-team Salesforce migration, identity governance, security review, and negotiated procurement; Luis and Jordan lack enterprise depth, while Anna, Priya, and Sophie own other geographies."
+      }
+    },
+    {
+      "id": "lead_032",
+      "company": "PampaBridge Consulting",
+      "employee_count": 145,
+      "country": "Argentina",
+      "region": "Latin America",
+      "industry": "Professional services",
+      "source": "Customer referral",
+      "product_interest": "Sales pipeline management",
+      "current_crm": "Pipedrive",
+      "estimated_seats": 36,
+      "requested_features": [
+        "Pipedrive import",
+        "Google Workspace sync",
+        "proposal reminders",
+        "Spanish-language onboarding"
+      ],
+      "inbound_message": "Necesitamos ordenar el pipeline de 36 consultores y migrar Pipedrive con el historial de actividades. Usamos Google Workspace y un sistema de propuestas con webhooks estandar; la decision la tomaran dos socios este trimestre y no requiere compras corporativas.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Luis matches the Argentinian mid-market buyer, Spanish onboarding, standard integrations, and partner-led fast decision; Sophie knows professional services but lacks Latin American ownership, while Maya, Anna, Priya, and Jordan are poorer segment, region, or language fits."
+      }
+    },
+    {
+      "id": "lead_033",
+      "company": "Eichenfeld Process Systems",
+      "employee_count": 1240,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Industrial technology",
+      "source": "Procurement portal",
+      "product_interest": "Enterprise sales platform",
+      "current_crm": "SAP Sales Cloud",
+      "estimated_seats": 170,
+      "requested_features": [
+        "EU data residency",
+        "SAP integration",
+        "German security documentation",
+        "works council review"
+      ],
+      "inbound_message": "Fur die Ablosung unseres bisherigen Systems benotigen wir ein Angebot fur 170 Nutzer in Deutschland und der Schweiz. Neben SAP-Anbindung und EU-Datenhaltung sind eine Prufung durch Datenschutz, IT-Sicherheit und Betriebsrat sowie deutschsprachige Vertragsunterlagen vorgesehen.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "Anna is the direct fit for a large German industrial account with SAP, EU residency, German documentation, and works-council review; Maya has comparable complexity but not DACH fluency, and Luis, Priya, Jordan, and Sophie lack Anna's combined regional and manufacturing expertise."
+      }
+    },
+    {
+      "id": "lead_034",
+      "company": "CoralArc Commerce Systems",
+      "employee_count": 590,
+      "country": "Australia",
+      "region": "APAC",
+      "industry": "Technology",
+      "source": "Solution architect workshop",
+      "product_interest": "Multi-region partner CRM",
+      "current_crm": "Oracle CX",
+      "estimated_seats": 132,
+      "requested_features": [
+        "partner portal API",
+        "SAML SSO",
+        "regional permission model",
+        "multi-country rollout"
+      ],
+      "inbound_message": "Our Melbourne-led channel organization is standardizing operations across Australia, New Zealand, Singapore, and India. We need 132 seats, federated login, territory-aware access, and bidirectional synchronization with a proprietary partner portal before a phased regional launch.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "Priya is purpose-built for this Australian-led, four-country APAC rollout with a complex partner API, SAML, and regional permissions; Maya, Luis, Anna, Jordan, and Sophie lack equivalent APAC enterprise and implementation-planning alignment."
+      }
+    },
+    {
+      "id": "lead_035",
+      "company": "Granite Shield Assurance",
+      "employee_count": 1450,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Executive referral",
+      "product_interest": "Enterprise CRM consolidation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 310,
+      "requested_features": [
+        "Salesforce migration",
+        "SAML SSO",
+        "SCIM",
+        "audit logs",
+        "custom legal terms"
+      ],
+      "inbound_message": "We are merging three commercial lines onto one CRM and need to preserve seven years of Salesforce activity. Our risk office requires SAML, SCIM, immutable audit logs, a security assessment and negotiated data-processing terms before procurement will approve 310 users.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Maya is the clear fit for a large US financial-services Salesforce migration with identity, security, legal and procurement complexity; Luis and Jordan serve simpler Americas motions, while Anna, Priya and Sophie lack the North American regional fit despite their enterprise experience."
+      }
+    },
+    {
+      "id": "lead_036",
+      "company": "CometaVenta Colombia",
+      "employee_count": 185,
+      "country": "Colombia",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Webinar",
+      "product_interest": "Sales CRM and commerce workflows",
+      "current_crm": "HubSpot",
+      "estimated_seats": 44,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "email sequences",
+        "Spanish onboarding"
+      ],
+      "inbound_message": "Queremos reemplazar HubSpot para 44 personas sin perder negocios ni historial de correo. Vendemos por varias tiendas Shopify y preferimos llevar la evaluación y la capacitación en español; no necesitamos SSO ni condiciones legales especiales.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Luis uniquely combines Latin American coverage, Spanish, e-commerce and HubSpot migration expertise for this standard mid-market rollout; Maya is unnecessarily enterprise-focused, Jordan lacks Spanish, and Anna, Priya and Sophie cover other regions and buying contexts."
+      }
+    },
+    {
+      "id": "lead_037",
+      "company": "AlpenKraft Maschinenbau GmbH",
+      "employee_count": 680,
+      "country": "Austria",
+      "region": "DACH",
+      "industry": "Manufacturing",
+      "source": "ERP partner referral",
+      "product_interest": "Regional sales CRM",
+      "current_crm": "Legacy on-premise CRM",
+      "estimated_seats": 125,
+      "requested_features": [
+        "EU data residency",
+        "GDPR controls",
+        "ERP integration",
+        "German-language procurement"
+      ],
+      "inbound_message": "Unsere Vertriebs- und Rechtsabteilungen in Österreich und Deutschland führen die Auswahl gemeinsam durch. Hosting in der EU, ein geprüfter AV-Vertrag und die Anbindung an unser ERP sind Pflicht; Ausschreibung und Einführung sollen auf Deutsch erfolgen.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "Anna directly matches this Austrian manufacturing account's German procurement, GDPR, EU residency and ERP-sensitive DACH rollout; Maya, Luis, Priya, Jordan and Sophie neither speak German nor combine DACH ownership with manufacturing specialization."
+      }
+    },
+    {
+      "id": "lead_038",
+      "company": "KiteLedger Systems",
+      "employee_count": 920,
+      "country": "India",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Demo request",
+      "product_interest": "APAC revenue platform",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 240,
+      "requested_features": [
+        "multi-country rollout",
+        "SCIM",
+        "regional permissions",
+        "complex API integration"
+      ],
+      "inbound_message": "Our India team is sponsoring a rollout across Bengaluru, Singapore and Sydney. We need SCIM-driven provisioning, country-level access controls and bidirectional APIs to our underwriting and compliance systems for an initial 240 users.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "Priya is the strongest match for an India-led fintech deployment spanning APAC with identity and complex API requirements; Maya, Anna and Sophie have enterprise skill but the wrong regional focus, while Luis and Jordan target less complex SMB or mid-market motions."
+      }
+    },
+    {
+      "id": "lead_039",
+      "company": "MapleMotive Creative",
+      "employee_count": 31,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Marketing agency",
+      "source": "Creator newsletter",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 11,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS follow-up",
+        "calendar booking",
+        "pipeline templates"
+      ],
+      "inbound_message": "We're an eleven-user agency team in Halifax. Mostly we need our HighLevel funnels, calendars and text follow-ups recreated, ideally in a week or two. There is no IT review and the owner will make the decision.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "Jordan's Canadian SMB, agency, GoHighLevel and fast-start specialties precisely match this owner-led deployment; Luis is less specialized in agency automation, Maya is too enterprise-oriented, and Anna, Priya and Sophie lack both regional and segment alignment."
+      }
+    },
+    {
+      "id": "lead_040",
+      "company": "Northstar Quay Logistics",
+      "employee_count": 2100,
+      "country": "United Kingdom",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Trade show",
+      "product_interest": "Enterprise customer platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 460,
+      "requested_features": [
+        "Salesforce migration",
+        "multi-country permissions",
+        "SSO",
+        "complex procurement"
+      ],
+      "inbound_message": "The UK team is leading a phased replacement covering Ireland, France, Spain and the Netherlands. Our tender requires role design by operating country, SSO, migration of Salesforce account hierarchies and separate legal reviews for two subsidiaries.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "Sophie owns UK and multi-country EMEA enterprise motions and specializes in logistics, Salesforce and complex procurement; Maya's similar technical skills are North America-led, Anna is DACH-specific, Priya is APAC-focused, and Luis and Jordan lack the required scale."
+      }
+    },
+    {
+      "id": "lead_041",
+      "company": "LumenTrial Bioanalytics",
+      "employee_count": 58,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Healthcare technology",
+      "source": "Security whitepaper download",
+      "product_interest": "Partner and trial-site CRM",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 27,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "audit logs",
+        "security questionnaire",
+        "custom data retention"
+      ],
+      "inbound_message": "Although only 27 employees need seats, the system will hold contacts for 3,800 clinical-trial sites. Sponsor contracts require SAML, automated deprovisioning, audit evidence, a detailed vendor questionnaire and a negotiated retention schedule before any data is uploaded.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "The small seat count superficially favors Jordan or Luis, but Maya's Canadian healthcare, security-review, SSO/SCIM and legal expertise fits the enterprise-grade risk around 3,800 sites; Anna, Priya and Sophie offer complex-deal skills without the regional and domain match."
+      }
+    },
+    {
+      "id": "lead_042",
+      "company": "ForgePeak Outdoor Supply",
+      "employee_count": 1260,
+      "country": "United States",
+      "region": "North America",
+      "industry": "E-commerce",
+      "source": "Paid search",
+      "product_interest": "Direct-sales team CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 14,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "email sequences"
+      ],
+      "inbound_message": "This request is just for our fourteen-person direct-to-consumer partnerships group. Corporate systems are out of scope; we want to import one HubSpot pipeline, connect Shopify and launch this quarter without SSO, procurement or custom development.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "edge",
+        "reason": "Despite enterprise company size, the scoped US HubSpot and Shopify project is a fast, standard e-commerce evaluation that suits Luis; Maya's enterprise process is not needed, Jordan is less aligned to HubSpot and mid-market commerce, and Anna, Priya and Sophie lack regional relevance."
+      }
+    },
+    {
+      "id": "lead_043",
+      "company": "Helvetiq Motion AG",
+      "employee_count": 85,
+      "country": "Switzerland",
+      "region": "DACH",
+      "industry": "Industrial technology",
+      "source": "Industry association",
+      "product_interest": "Sales and distributor CRM",
+      "current_crm": "Zoho CRM",
+      "estimated_seats": 36,
+      "requested_features": [
+        "German-language onboarding",
+        "EU data residency",
+        "ERP integration",
+        "distributor permissions"
+      ],
+      "inbound_message": "Wir sind kleiner als viele Industriekunden, verwalten aber Händler in der Schweiz, Deutschland und Österreich. Die Vertragsprüfung erfolgt auf Deutsch; gewünscht sind EU-Hosting, rollenbasierter Händlerzugriff und eine Schnittstelle zu unserem Produktions-ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "Employee count could suggest Jordan, but Anna's German language, Swiss/DACH ownership, industrial domain, EU residency and ERP experience outweigh size; Luis lacks German, and Maya, Priya and Sophie do not match this DACH manufacturing-led process."
+      }
+    },
+    {
+      "id": "lead_044",
+      "company": "TernPay Cooperative",
+      "employee_count": 95,
+      "country": "New Zealand",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Technology partner",
+      "product_interest": "Member growth CRM",
+      "current_crm": "Pipedrive",
+      "estimated_seats": 48,
+      "requested_features": [
+        "SAML SSO",
+        "Australia rollout",
+        "core banking API",
+        "regional implementation plan"
+      ],
+      "inbound_message": "We're 95 people today, but the project includes our Auckland operation and a newly licensed Australian entity. Identity must use our SAML provider, and account status needs to sync with our core banking service before the 48-user launch.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "edge",
+        "reason": "Although the company is below Priya's usual size and could appear suitable for Jordan, its New Zealand-Australia fintech rollout, SSO and core-banking API are Priya's exact complex APAC motion; Maya, Luis, Anna and Sophie lack the regional specialization."
+      }
+    },
+    {
+      "id": "lead_045",
+      "company": "Atelier Pollen Digital",
+      "employee_count": 24,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Marketing agency",
+      "source": "Community forum",
+      "product_interest": "Agency marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 9,
+      "requested_features": [
+        "GoHighLevel migration",
+        "booking calendar",
+        "email automation"
+      ],
+      "inbound_message": "Our distributed team works entirely in English, including purchasing. We need nine seats and a clean copy of our HighLevel pipeline, booking pages and nurture emails. No French-language process, security review or negotiated agreement is expected.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "France superficially points to Sophie, but this explicitly English, nine-seat agency and GoHighLevel fast-start is Jordan's global SMB specialty; Sophie, Maya, Anna and Priya are oriented to complex deployments, while Luis is less specialized in agency automation."
+      }
+    },
+    {
+      "id": "lead_046",
+      "company": "RheinLumiere Services SE",
+      "employee_count": 760,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Professional services",
+      "source": "Consulting partner referral",
+      "product_interest": "Cross-border client CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 175,
+      "requested_features": [
+        "Salesforce integration",
+        "French-language procurement",
+        "multi-country permissions",
+        "custom contracting"
+      ],
+      "inbound_message": "Our legal headquarters is in Germany, but Paris owns the budget and will run the selection in French. The deployment covers client teams in France, Belgium and Luxembourg; German staff are a small read-only group. We need Salesforce coexistence and a negotiated group agreement.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "edge",
+        "reason": "The German headquarters suggests Anna, but the French-led procurement, Benelux and France rollout, professional-services model and Salesforce complexity favor Sophie; Maya and Priya cover other regions, and Luis and Jordan lack French and enterprise procurement depth."
+      }
+    },
+    {
+      "id": "lead_047",
+      "company": "SaludNexo Devices",
+      "employee_count": 340,
+      "country": "Mexico",
+      "region": "Latin America",
+      "industry": "Healthcare",
+      "source": "Compliance webinar",
+      "product_interest": "Regulated enterprise CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 105,
+      "requested_features": [
+        "Salesforce migration",
+        "SAML SSO",
+        "SCIM",
+        "security review",
+        "US legal review"
+      ],
+      "inbound_message": "Our commercial team is in Mexico, but this purchase is governed by our US parent and all evaluation meetings will be in English. Their security and legal teams require SAML, SCIM, penetration-test evidence and Salesforce validation before approving access to regulated provider data.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "ambiguous",
+        "reason": "Luis owns Mexico, but the US-parent-led English process, regulated healthcare data, Salesforce migration, identity controls and formal security/legal gates make Maya the better buying-motion fit; Jordan lacks complexity, and Anna, Priya and Sophie lack Americas relevance."
+      }
+    },
+    {
+      "id": "lead_048",
+      "company": "ArcMinute Software",
+      "employee_count": 410,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "B2B SaaS",
+      "source": "Product comparison site",
+      "product_interest": "Sales CRM replacement",
+      "current_crm": "HubSpot",
+      "estimated_seats": 72,
+      "requested_features": [
+        "HubSpot migration",
+        "standard billing integration",
+        "email sequences",
+        "forecasting"
+      ],
+      "inbound_message": "We're comparing three vendors for a 72-seat HubSpot replacement. The RevOps team can use your standard billing connector, and we'd like a decision within six weeks. We have no data-residency requirement, security questionnaire or custom contract request.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "ambiguous",
+        "reason": "The upper-mid-market size and SaaS industry could attract Maya, but the fast Canadian HubSpot migration with only standard integration needs is better for Luis; Jordan skews smaller, while Anna, Priya and Sophie lack the regional fit and no complexity overrides geography."
+      }
+    },
+    {
+      "id": "lead_049",
+      "company": "WerkHaven Robotics BV",
+      "employee_count": 290,
+      "country": "Netherlands",
+      "region": "Benelux",
+      "industry": "Manufacturing",
+      "source": "German distributor referral",
+      "product_interest": "European channel CRM",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 68,
+      "requested_features": [
+        "German-language procurement",
+        "EU data residency",
+        "GDPR controls",
+        "manufacturing ERP integration"
+      ],
+      "inbound_message": "Our Dutch headquarters will use the system, but the buying committee and largest distributor network are in Germany and Austria. Procurement documents and implementation workshops must be in German, with EU hosting and integration to our factory ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "ambiguous",
+        "reason": "Benelux normally favors Sophie, but the German-language buying committee, Germany-Austria channel, manufacturing ERP and EU-residency requirements align more deeply with Anna; Maya and Priya lack European ownership, while Luis and Jordan lack German and complex industrial expertise."
+      }
+    },
+    {
+      "id": "lead_050",
+      "company": "Aozora Circuit Cloud",
+      "employee_count": 160,
+      "country": "Japan",
+      "region": "APAC",
+      "industry": "Technology",
+      "source": "Cloud marketplace",
+      "product_interest": "Regional partner CRM",
+      "current_crm": "Custom-built CRM",
+      "estimated_seats": 82,
+      "requested_features": [
+        "complex API integration",
+        "regional permissions",
+        "Singapore rollout",
+        "SSO"
+      ],
+      "inbound_message": "Our working language for this project is English. Tokyo engineering will sponsor the integration, while partner teams in Singapore and Australia need separate access policies. We must retire a custom CRM through APIs and launch all three locations together.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "ambiguous",
+        "reason": "The company is modest in size and Japan might raise language concerns, but its explicit English process, three-country APAC launch, custom-system APIs and identity controls fit Priya; Jordan and Luis lack regional complexity, and Maya, Anna and Sophie focus elsewhere."
+      }
+    },
+    {
+      "id": "lead_051",
+      "company": "Sunbird Pool Care",
+      "employee_count": 34,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Local services",
+      "source": "YouTube",
+      "product_interest": "Lead follow-up automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 13,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS reminders",
+        "calendar booking",
+        "simple pipeline"
+      ],
+      "inbound_message": "We're a local maintenance company, not a regional rollout. Thirteen English-speaking users need our HighLevel contacts, quote follow-ups and booking calendar moved over. The founder wants an out-of-the-box setup with no API work or procurement cycle.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "ambiguous",
+        "reason": "Singapore geography suggests Priya, but the inbound explicitly rules out an APAC enterprise motion and instead matches Jordan's English-speaking local-services, GoHighLevel and simple fast-start specialty; Luis is less specialized, and Maya, Anna and Sophie are enterprise or regionally mismatched."
+      }
+    },
+    {
+      "id": "lead_052",
+      "company": "DesertSpan Freight",
+      "employee_count": 520,
+      "country": "United Arab Emirates",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "RFP submission",
+      "product_interest": "Multi-country logistics CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 135,
+      "requested_features": [
+        "Salesforce integration",
+        "multi-country permissions",
+        "SSO",
+        "formal procurement"
+      ],
+      "inbound_message": "Dubai is coordinating an English-language tender for teams in the UAE, United Kingdom and France. Salesforce will remain the system of record during a twelve-month transition, and the RFP includes SSO, country-specific roles and contractual review by each operating company.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "ambiguous",
+        "reason": "The UAE is outside Sophie's named core countries, but this English EMEA logistics tender spans her UK and France territories and requires Salesforce coexistence and complex procurement; Priya's nearby APAC remit is less relevant, while Maya, Anna, Luis and Jordan lack the combined regional and motion fit."
+      }
+    },
+    {
+      "id": "lead_053",
+      "company": "Ironwood Treasury Network",
+      "employee_count": 890,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Analyst report",
+      "product_interest": "Enterprise relationship management",
+      "current_crm": "Salesforce",
+      "estimated_seats": 205,
+      "requested_features": [
+        "Salesforce migration",
+        "SSO",
+        "SCIM",
+        "audit logs",
+        "vendor risk review"
+      ],
+      "inbound_message": "We need to separate a 205-user business unit from our parent company's Salesforce tenant. Access provisioning, audit exports and the migration runbook will be reviewed by information security, legal, vendor risk and procurement before our board approves the cutover.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Maya is purpose-built for this US financial-services carve-out involving Salesforce, SSO/SCIM, auditability and layered risk and procurement review; Luis and Jordan lack enterprise depth, and Anna, Priya and Sophie have no stronger regional claim."
+      }
+    },
+    {
+      "id": "lead_054",
+      "company": "RioPlata Strategy Partners",
+      "employee_count": 145,
+      "country": "Argentina",
+      "region": "Latin America",
+      "industry": "Professional services",
+      "source": "Customer referral",
+      "product_interest": "Consulting sales CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 33,
+      "requested_features": [
+        "HubSpot migration",
+        "email sync",
+        "pipeline automation",
+        "Spanish onboarding"
+      ],
+      "inbound_message": "Buscamos migrar 33 usuarios de HubSpot y simplificar el seguimiento de propuestas. La evaluación será en español y sólo necesitamos correo, automatizaciones estándar y nuestros pipelines actuales; queremos decidir antes de fin de mes.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Luis matches the Argentine Spanish-language, mid-market HubSpot migration and rapid standard evaluation; Jordan lacks Spanish and HubSpot focus, Maya is too enterprise-oriented, and Anna, Priya and Sophie cover different languages and regions."
+      }
+    },
+    {
+      "id": "lead_055",
+      "company": "PebbleFox Labs",
+      "employee_count": 41,
+      "country": "Ireland",
+      "region": "EMEA",
+      "industry": "B2B SaaS",
+      "source": "Startup accelerator",
+      "product_interest": "Startup sales automation",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 15,
+      "requested_features": [
+        "simple pipeline",
+        "email sequences",
+        "calendar booking",
+        "CSV import"
+      ],
+      "inbound_message": "We're a Dublin startup putting our first repeatable sales process in place. Fifteen English-speaking users need a spreadsheet import, one pipeline, sequences and meeting booking. We have no IT team and would rather use defaults than scope custom work.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "Jordan's global English-speaking startup remit and simple fast-start expertise best fit this 15-seat first CRM; Sophie owns Ireland but focuses on larger complex EMEA deals, Luis is less startup-specific, and Maya, Anna and Priya are mismatched on segment or region."
+      }
+    },
+    {
+      "id": "lead_056",
+      "company": "Clairmont Conseil Groupe",
+      "employee_count": 430,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Professional services",
+      "source": "Executive roundtable",
+      "product_interest": "Enterprise client development CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 115,
+      "requested_features": [
+        "French-language procurement",
+        "Salesforce migration",
+        "multi-country permissions",
+        "custom legal terms"
+      ],
+      "inbound_message": "Notre direction parisienne pilote le remplacement de Salesforce pour les bureaux en France, Belgique et Espagne. L'appel d'offres, les ateliers et la négociation contractuelle se dérouleront en français, avec des droits distincts par bureau pour 115 utilisateurs.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "Sophie directly matches the French-language enterprise procurement, professional-services industry, Salesforce migration and multi-country EMEA rollout; Maya's enterprise strengths lack regional and language fit, and Anna, Priya, Luis and Jordan are weaker on territory, language or complexity."
+      }
+    },
+    {
+      "id": "lead_057",
+      "company": "BlueCedar Clinical Networks",
+      "employee_count": 860,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Healthcare technology",
+      "source": "Demo request",
+      "product_interest": "Enterprise CRM consolidation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 210,
+      "requested_features": [
+        "Salesforce migration",
+        "SAML SSO",
+        "SCIM",
+        "audit logs"
+      ],
+      "inbound_message": "We need to combine three commercial teams without losing Salesforce activity history. Our hospital clients require a security assessment, and our own IT team has made SAML, SCIM, audit retention and a negotiated DPA prerequisites for the 210-user launch.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Maya is the clear fit for a Canadian healthcare enterprise requiring Salesforce migration, identity controls, security review and legal negotiation; Luis and Jordan handle simpler Americas motions, while Anna, Priya and Sophie cover other regions and lack this North American regulated-deal alignment."
+      }
+    },
+    {
+      "id": "lead_058",
+      "company": "QuarryNote Systems",
+      "employee_count": 68,
+      "country": "United States",
+      "region": "North America",
+      "industry": "B2B SaaS",
+      "source": "Security webinar",
+      "product_interest": "Partner relationship CRM",
+      "current_crm": "Airtable",
+      "estimated_seats": 46,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "custom roles",
+        "security questionnaire"
+      ],
+      "inbound_message": "Headcount makes us look small, but this system will hold deal-registration data for 700 reseller users. Two strategic partners will not connect until their security questionnaires are approved, SAML and SCIM are live, and legal signs their data-processing addenda.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "The 68-employee size superficially favors Jordan or Luis, but 700 external users, SSO/SCIM, partner security reviews and negotiated legal terms make this Maya's complex US enterprise motion; Anna, Priya and Sophie have neither the regional nor language advantage to outweigh that specialty fit."
+      }
+    },
+    {
+      "id": "lead_059",
+      "company": "Ironvale Credit Cooperative",
+      "employee_count": 430,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Partner referral",
+      "product_interest": "Secure sales and member CRM",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 95,
+      "requested_features": [
+        "SSO",
+        "audit exports",
+        "role segregation",
+        "vendor risk review"
+      ],
+      "inbound_message": "Our credit and business-banking groups want one pipeline, but compliance requires segregated roles, immutable audit exports and completion of third-party risk review. The board's technology committee must approve the vendor before contracting.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "ambiguous",
+        "reason": "Although 430 employees overlaps Luis's mid-market range, the regulated US financial-services process, board approval, access controls and vendor-risk review favor Maya; Jordan is too SMB-focused, and Anna, Priya and Sophie are regionally less suitable despite their enterprise experience."
+      }
+    },
+    {
+      "id": "lead_060",
+      "company": "MapleSpan Freight Technologies",
+      "employee_count": 540,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Logistics technology",
+      "source": "Conference scan",
+      "product_interest": "Multi-team revenue platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 130,
+      "requested_features": [
+        "Salesforce migration",
+        "SSO",
+        "sandbox environment",
+        "custom procurement"
+      ],
+      "inbound_message": "We are separating a software division from the parent company's Salesforce org. Sales, partnerships and customer success need a staged migration for 130 people, with a sandbox, identity-provider testing and formal procurement completed this quarter.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "A 540-person Canadian account with a Salesforce carve-out, three-team rollout, SSO testing and formal procurement directly matches Maya; Luis and Jordan target less complex deployments, while Anna, Priya and Sophie are enterprise-capable but aligned to non-North-American territories."
+      }
+    },
+    {
+      "id": "lead_061",
+      "company": "AndesCart Comercio",
+      "employee_count": 185,
+      "country": "Colombia",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Paid search",
+      "product_interest": "Sales CRM and order context",
+      "current_crm": "HubSpot",
+      "estimated_seats": 42,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "email sequences",
+        "Spanish onboarding"
+      ],
+      "inbound_message": "Queremos migrar 42 usuarios de HubSpot y conectar nuestras dos tiendas Shopify. El equipo compra en español, necesita conservar el historial de negocios y espera iniciar en seis semanas con capacitación remota.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "Luis uniquely combines Spanish, Latin American coverage, HubSpot migration and e-commerce expertise for this standard mid-market rollout; Maya and Jordan mismatch its complexity, and Anna, Priya and Sophie lack the required regional-language fit."
+      }
+    },
+    {
+      "id": "lead_062",
+      "company": "RedJuniper Advisory",
+      "employee_count": 320,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Professional services",
+      "source": "Website form",
+      "product_interest": "Client development CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 58,
+      "requested_features": [
+        "HubSpot migration",
+        "email sync",
+        "standard reporting"
+      ],
+      "inbound_message": "Our consulting practices use HubSpot differently, and we'd like one clean pipeline for 58 business-development users. There is no custom security process or global rollout; the priority is importing clean data and being live before annual planning.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "This is Luis's core US mid-market profile: professional services, HubSpot migration, standard reporting and a fast timeline; Maya is unnecessary without enterprise controls, Jordan skews smaller, and Anna, Priya and Sophie offer no stronger geography or implementation match."
+      }
+    },
+    {
+      "id": "lead_063",
+      "company": "Colossus Home Market",
+      "employee_count": 1250,
+      "country": "Mexico",
+      "region": "Latin America",
+      "industry": "Retail e-commerce",
+      "source": "Outbound reply",
+      "product_interest": "Marketplace sales pilot",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 19,
+      "requested_features": [
+        "basic pipeline",
+        "Shopify integration",
+        "Spanish training"
+      ],
+      "inbound_message": "Aunque la empresa es grande, esta evaluación es solo para 19 personas del equipo de marketplace en México. No reemplazaremos los sistemas corporativos y no necesitamos SSO ni compras globales; queremos probar un pipeline conectado a Shopify durante 60 días.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "edge",
+        "reason": "The 1,250-person company superficially suggests Maya, but the actual scope is a 19-seat Spanish-language Mexican e-commerce pilot with Shopify and no enterprise process, making Luis stronger; Jordan lacks Spanish, and Anna, Priya and Sophie lack the territory-language fit."
+      }
+    },
+    {
+      "id": "lead_064",
+      "company": "PolarMetric Software",
+      "employee_count": 96,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "SaaS",
+      "source": "Product comparison site",
+      "product_interest": "Sales pipeline replacement",
+      "current_crm": "Pipedrive",
+      "estimated_seats": 27,
+      "requested_features": [
+        "pipeline import",
+        "Slack integration",
+        "email sequences",
+        "forecasting"
+      ],
+      "inbound_message": "We're outgrowing Pipedrive and need a more consistent forecast for a 27-person sales team. We use Slack and standard email tooling, can buy on your standard terms, and would like to choose a platform this month.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "ambiguous",
+        "reason": "Luis best fits this fast-moving 96-person Canadian SaaS evaluation with standard integrations and no enterprise requirements; Jordan is plausible but less aligned to the 75-499 mid-market band, Maya is excessive, and Anna, Priya and Sophie lack a regional advantage."
+      }
+    },
+    {
+      "id": "lead_065",
+      "company": "Rheinbogen Robotics GmbH",
+      "employee_count": 710,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Industrial technology",
+      "source": "Trade show",
+      "product_interest": "European sales CRM",
+      "current_crm": "Legacy on-premise CRM",
+      "estimated_seats": 145,
+      "requested_features": [
+        "EU data residency",
+        "GDPR controls",
+        "ERP integration",
+        "German procurement"
+      ],
+      "inbound_message": "Unsere Vertriebsorganisation in Deutschland und Österreich benötigt eine EU-Datenhaltung und eine Anbindung an das bestehende ERP. Einkauf und Betriebsrat führen die Gespräche auf Deutsch; zunächst sind 145 Nutzer geplant.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "Anna alone combines German-language procurement, DACH ownership, manufacturing expertise, EU residency and ERP-sensitive deployment experience; Maya, Luis and Jordan focus the Americas, Priya APAC, and Sophie lacks Anna's DACH and German specialization."
+      }
+    },
+    {
+      "id": "lead_066",
+      "company": "Zurich MedTech Instruments AG",
+      "employee_count": 155,
+      "country": "Switzerland",
+      "region": "DACH",
+      "industry": "Medical manufacturing",
+      "source": "Customer referral",
+      "product_interest": "Distributor and sales CRM",
+      "current_crm": "Zoho CRM",
+      "estimated_seats": 44,
+      "requested_features": [
+        "GDPR controls",
+        "EU-hosted backups",
+        "territory permissions",
+        "ERP integration"
+      ],
+      "inbound_message": "We sell through distributors across Germany, Switzerland and Austria. Our team can evaluate in English, but the data-processing review must satisfy German counsel, and territory records need to sync nightly with our production ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "ambiguous",
+        "reason": "Despite English evaluation and only 44 seats, the Swiss-led DACH footprint, German legal review, regulated manufacturing context and ERP/data controls make Anna strongest; Maya, Luis and Jordan lack DACH compliance depth, Priya is APAC, and Sophie is secondary to Anna in DACH."
+      }
+    },
+    {
+      "id": "lead_067",
+      "company": "Nordhafen Components GmbH",
+      "employee_count": 82,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Manufacturing",
+      "source": "Organic search",
+      "product_interest": "Sales CRM",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 24,
+      "requested_features": [
+        "EU data residency",
+        "German onboarding",
+        "quote approval workflow"
+      ],
+      "inbound_message": "Wir sind zwar klein, benötigen aber den gesamten Auswahlprozess und die Einführung auf Deutsch. Kundendaten dürfen die EU nicht verlassen, und Angebote über 100.000 EUR brauchen einen nachvollziehbaren Freigabeprozess.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "Employee count might point to Jordan or Luis, but mandatory German sales and onboarding, EU residency and a manufacturing approval workflow make Anna the supported specialist; Maya, Priya and Sophie lack German, while the Americas reps lack both language and territory fit."
+      }
+    },
+    {
+      "id": "lead_068",
+      "company": "Veldspar Cloud Services BV",
+      "employee_count": 390,
+      "country": "Netherlands",
+      "region": "EMEA",
+      "industry": "B2B SaaS",
+      "source": "Partner referral",
+      "product_interest": "EU customer lifecycle platform",
+      "current_crm": "HubSpot Enterprise",
+      "estimated_seats": 88,
+      "requested_features": [
+        "EU data residency",
+        "GDPR deletion workflows",
+        "German subsidiary rollout",
+        "security documentation"
+      ],
+      "inbound_message": "Our Amsterdam team is leading, but the first deployment is for our German subsidiary and its works-council review. German-language security documentation and demonstrable EU-only storage are selection gates; broader Benelux adoption may follow later.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "The Netherlands and possible Benelux expansion superficially favor Sophie, but the immediate buyer is the German subsidiary with German documentation, works-council review and EU residency gates, favoring Anna; Maya, Luis, Priya and Jordan have weaker region, language and compliance alignment."
+      }
+    },
+    {
+      "id": "lead_069",
+      "company": "MeridianMint Payments",
+      "employee_count": 920,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Demo request",
+      "product_interest": "Regional enterprise CRM",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 240,
+      "requested_features": [
+        "SAML SSO",
+        "regional permissions",
+        "risk API integration",
+        "multi-country rollout"
+      ],
+      "inbound_message": "Singapore is sponsoring a rollout to teams in India, Australia and Malaysia. We need identity federation, country-level access policies and bidirectional APIs to our merchant-risk platform before moving 240 users.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "Priya is the direct match for a Singapore-led fintech rollout spanning APAC with 240 seats, identity controls and a complex risk API; Maya and Sophie have enterprise skills but wrong regional focus, while Luis, Anna and Jordan lack this APAC fintech implementation fit."
+      }
+    },
+    {
+      "id": "lead_070",
+      "company": "KoruGrid Energy Software",
+      "employee_count": 275,
+      "country": "New Zealand",
+      "region": "APAC",
+      "industry": "Technology",
+      "source": "Virtual event",
+      "product_interest": "Sales and implementation CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 72,
+      "requested_features": [
+        "API integration",
+        "regional implementation planning",
+        "custom roles",
+        "sandbox"
+      ],
+      "inbound_message": "Auckland will pilot first, then our implementation teams in Sydney and Bengaluru join. The CRM must exchange project milestones with our grid-deployment platform, and each country's team needs separate visibility during the phased launch.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "Priya's New Zealand coverage, multi-country APAC rollout specialty, complex API experience and regional permission expertise outweigh Luis's superficial HubSpot-migration fit; Maya, Anna, Jordan and Sophie lack comparable APAC implementation alignment."
+      }
+    },
+    {
+      "id": "lead_071",
+      "company": "LotusForge Ventures",
+      "employee_count": 58,
+      "country": "India",
+      "region": "APAC",
+      "industry": "Financial services",
+      "source": "Founder referral",
+      "product_interest": "Investor and portfolio CRM",
+      "current_crm": "Notion",
+      "estimated_seats": 34,
+      "requested_features": [
+        "SAML SSO",
+        "portfolio API",
+        "field-level permissions",
+        "audit logs"
+      ],
+      "inbound_message": "We have only 58 employees, but investment and portfolio-company records are highly restricted. Our security lead requires SAML and auditability, while engineering needs an API that synchronizes ownership and compliance flags across 160 portfolio entities.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "edge",
+        "reason": "Small size could suggest Jordan, but an India-based financial-services buyer with sensitive permissions, identity controls and a 160-entity API integration fits Priya's complex APAC remit; Maya lacks regional priority, and Luis, Anna and Sophie offer weaker domain-territory combinations."
+      }
+    },
+    {
+      "id": "lead_072",
+      "company": "Sunbird Learning Collective",
+      "employee_count": 610,
+      "country": "Australia",
+      "region": "APAC",
+      "industry": "Education technology",
+      "source": "Website form",
+      "product_interest": "Departmental partnership CRM",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 65,
+      "requested_features": [
+        "GoHighLevel migration",
+        "multi-country permissions",
+        "API integration",
+        "SSO"
+      ],
+      "inbound_message": "The starting group is 65 partnership managers, but their programs span Australia, New Zealand, Indonesia and Singapore. We need to preserve HighLevel campaign history while integrating enrollment status and enforcing country-specific access through our identity provider.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "edge",
+        "reason": "GoHighLevel superficially points to Jordan, yet the 65-seat project spans four APAC countries and requires SSO, regional access and an enrollment API, making Priya the stronger implementation owner; Maya, Luis, Anna and Sophie lack the regional specialty."
+      }
+    },
+    {
+      "id": "lead_073",
+      "company": "CopperFox Media Studio",
+      "employee_count": 31,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Marketing agency",
+      "source": "YouTube",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 11,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS automation",
+        "calendar booking"
+      ],
+      "inbound_message": "We run lead nurture for local roofing and landscaping clients. Eleven people need our HighLevel pipelines, calendars and text follow-ups moved with minimal downtime; standard onboarding is fine and we want to launch next week.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "Jordan directly matches this small US agency, GoHighLevel migration, marketing automation and fast-start deployment; Luis is less specialized in agency automation, Maya is too enterprise-oriented, and Anna, Priya and Sophie have no regional or complexity advantage."
+      }
+    },
+    {
+      "id": "lead_074",
+      "company": "Thistle & Tide Digital Ltd",
+      "employee_count": 47,
+      "country": "United Kingdom",
+      "region": "EMEA",
+      "industry": "Digital agency",
+      "source": "Community forum",
+      "product_interest": "Agency sales automation",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 14,
+      "requested_features": [
+        "email automation",
+        "booking calendar",
+        "simple pipeline"
+      ],
+      "inbound_message": "We're an English-only agency in Bristol with fourteen users. We need a tidy pipeline, automated follow-ups and discovery-call booking, but no custom contract, integrations, data-residency review or multi-country rollout.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "UK geography superficially favors Sophie, but the explicit English-only, 14-seat agency fast-start with no enterprise requirements is Jordan's global SMB specialty; Maya, Luis, Anna and Priya also offer no stronger motion, language or territory combination."
+      }
+    },
+    {
+      "id": "lead_075",
+      "company": "SproutLedger Apps",
+      "employee_count": 22,
+      "country": "Australia",
+      "region": "APAC",
+      "industry": "Startup",
+      "source": "Startup marketplace",
+      "product_interest": "Founding sales CRM",
+      "current_crm": "None",
+      "estimated_seats": 7,
+      "requested_features": [
+        "basic pipeline",
+        "email sync",
+        "calendar booking"
+      ],
+      "inbound_message": "Seven of us are setting up our first repeatable sales process. We're happy with self-serve English onboarding and standard terms; all we need is email sync, meeting booking and a pipeline the founders can maintain without an administrator.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "Australia suggests Priya, but this seven-seat English-speaking startup has no APAC rollout, integration or identity complexity and instead fits Jordan's global simple SMB motion; Maya, Luis, Anna and Sophie are likewise less aligned than the dedicated startup specialist."
+      }
+    },
+    {
+      "id": "lead_076",
+      "company": "LumiereRoute SAS",
+      "employee_count": 780,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Executive roundtable",
+      "product_interest": "Enterprise commercial CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 175,
+      "requested_features": [
+        "Salesforce migration",
+        "French procurement",
+        "multi-country permissions",
+        "SSO"
+      ],
+      "inbound_message": "Notre siège à Lyon pilote le remplacement de Salesforce pour les équipes en France, Espagne et Belgique. Les ateliers, le contrat et les échanges avec les achats doivent se dérouler en français, avec des droits distincts par pays pour 175 utilisateurs.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "Sophie uniquely matches this French-language logistics enterprise, Salesforce replacement, formal procurement and Southern Europe/Benelux rollout; Maya lacks French and EMEA ownership, Anna is DACH-focused, and Luis, Priya and Jordan do not fit the language or enterprise motion."
+      }
+    },
+    {
+      "id": "lead_077",
+      "company": "ArborQuay Consulting PLC",
+      "employee_count": 210,
+      "country": "Ireland",
+      "region": "EMEA",
+      "industry": "Professional services",
+      "source": "Salesforce marketplace",
+      "product_interest": "Client pursuit platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 92,
+      "requested_features": [
+        "Salesforce integration",
+        "EU data residency",
+        "multi-office permissions",
+        "procurement review"
+      ],
+      "inbound_message": "Dublin is coordinating a CRM layer for pursuit teams in Ireland, the UK, France and the Netherlands. We will retain Salesforce for finance handoff, require EU hosting and need procurement to assess role design across eight offices.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "ambiguous",
+        "reason": "At 210 employees this could look mid-market for Luis, and EU residency overlaps Anna, but an Ireland-led professional-services rollout across the UK, France and Benelux with Salesforce and procurement maps best to Sophie; Maya, Priya and Jordan have weaker geography and motion fit."
+      }
+    },
+    {
+      "id": "lead_078",
+      "company": "Haedam Workplace Solutions",
+      "employee_count": 340,
+      "country": "South Korea",
+      "region": "APAC",
+      "industry": "Business services",
+      "source": "Website form",
+      "product_interest": "CRM evaluation",
+      "current_crm": "Unknown",
+      "estimated_seats": null,
+      "requested_features": [],
+      "inbound_message": "한국어로만 상담과 제품 시연이 가능합니다. 현재는 사용자 수, 기존 CRM, 필요한 연동 기능과 도입 범위를 내부에서 검토 중이며 아직 확정된 요구사항은 없습니다.",
+      "evaluation": {
+        "expected_route": "manual_review",
+        "difficulty": "ambiguous",
+        "reason": "The lead requires a Korean-only sales process, which none of Maya, Luis, Anna, Priya, Jordan or Sophie supports, and it supplies no seat count, CRM, integrations or scope; APAC geography alone is insufficient to route confidently to Priya or any other specialist."
+      }
+    },
+    {
+      "id": "lead_079",
+      "company": "Lakefront Care Alliance",
+      "employee_count": 860,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "Healthcare",
+      "source": "Demo request",
+      "product_interest": "Enterprise CRM consolidation",
+      "current_crm": "Salesforce",
+      "estimated_seats": 210,
+      "requested_features": [
+        "Salesforce migration",
+        "SAML SSO",
+        "SCIM",
+        "audit logs"
+      ],
+      "inbound_message": "Three acquired clinic networks still use separate Salesforce orgs. We need to consolidate 210 users, preserve activity history, provision through Okta, and complete privacy, security, and procurement reviews before our fiscal year-end.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "obvious",
+        "reason": "Canadian healthcare, a multi-org Salesforce migration, SSO/SCIM, and formal security and procurement reviews align directly with Maya's North American enterprise remit; the regional SMB, DACH, APAC, and EMEA specialists lack this combined regulated-enterprise fit."
+      }
+    },
+    {
+      "id": "lead_080",
+      "company": "Altura Mercado",
+      "employee_count": 185,
+      "country": "Colombia",
+      "region": "Latin America",
+      "industry": "E-commerce",
+      "source": "Webinar",
+      "product_interest": "Sales CRM migration",
+      "current_crm": "HubSpot",
+      "estimated_seats": 44,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "Spanish onboarding",
+        "email sequences"
+      ],
+      "inbound_message": "Buscamos migrar 44 usuarios desde HubSpot y mantener la sincronización con nuestras tres tiendas Shopify. El proceso de compra será en español; queremos decidir este mes y no necesitamos términos legales personalizados.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "obvious",
+        "reason": "A Spanish-language Latin American mid-market e-commerce buyer with HubSpot and Shopify requirements is an exact match for Luis; it is neither an enterprise-complexity case nor a DACH, APAC, EMEA, or English-speaking microbusiness motion."
+      }
+    },
+    {
+      "id": "lead_081",
+      "company": "MainWerk Antriebstechnik GmbH",
+      "employee_count": 470,
+      "country": "Germany",
+      "region": "DACH",
+      "industry": "Industrial technology",
+      "source": "Trade show",
+      "product_interest": "European sales CRM",
+      "current_crm": "SAP Sales Cloud",
+      "estimated_seats": 96,
+      "requested_features": [
+        "EU data residency",
+        "GDPR controls",
+        "SAP integration",
+        "German-language procurement"
+      ],
+      "inbound_message": "Unsere Vertriebsleitung prüft eine Ablösung von SAP Sales Cloud für Deutschland und Österreich. Datenhaltung in der EU, ein geprüfter AV-Vertrag und die Anbindung an SAP ERP sind Pflicht; Einkauf und Betriebsrat führen die Gespräche auf Deutsch.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "obvious",
+        "reason": "German-language procurement, DACH manufacturing operations, EU residency, GDPR, and SAP integration make Anna the uniquely complete fit; the other enterprise reps lack her German and DACH compliance specialization, while the SMB reps do not fit the scope."
+      }
+    },
+    {
+      "id": "lead_082",
+      "company": "StraitsLedger Technologies",
+      "employee_count": 640,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Fintech",
+      "source": "Partner referral",
+      "product_interest": "Regional revenue platform",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 155,
+      "requested_features": [
+        "multi-country rollout",
+        "SAML SSO",
+        "regional permissions",
+        "complex API integration"
+      ],
+      "inbound_message": "Our Singapore team is sponsoring a rollout across India, Australia, and Indonesia. We need Entra ID, country-level access controls, and APIs that exchange KYC status with our underwriting platform before a phased 155-seat launch.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "obvious",
+        "reason": "This APAC-led fintech rollout combines four countries, identity controls, and a complex compliance API, squarely matching Priya; Maya's security strength does not outweigh APAC ownership, and the remaining reps lack the regional enterprise profile."
+      }
+    },
+    {
+      "id": "lead_083",
+      "company": "Morrow & Finch Creative",
+      "employee_count": 31,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Marketing agency",
+      "source": "YouTube",
+      "product_interest": "Marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 11,
+      "requested_features": [
+        "GoHighLevel migration",
+        "SMS follow-up",
+        "calendar booking",
+        "pipeline templates"
+      ],
+      "inbound_message": "We have five client pipelines in HighLevel and eleven people who need access. Can we bring over the stages, forms, texting, and calendars and be live in two weeks? There is no IT review beyond connecting our domain.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "obvious",
+        "reason": "A small US agency seeking a fast, low-complexity GoHighLevel and marketing-automation migration is Jordan's core specialty; every enterprise or regional mid-market profile would be disproportionate to the deal."
+      }
+    },
+    {
+      "id": "lead_084",
+      "company": "QuaiNord Freight Systems",
+      "employee_count": 1250,
+      "country": "France",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Request for proposal",
+      "product_interest": "Enterprise sales platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 280,
+      "requested_features": [
+        "Salesforce migration",
+        "multi-country permissions",
+        "French-language procurement",
+        "custom implementation plan"
+      ],
+      "inbound_message": "Notre appel d'offres couvre 280 utilisateurs en France, Belgique, Espagne et Italie. Nous devons reprendre Salesforce, définir des droits par filiale et conduire les ateliers contractuels en français avec notre direction des achats.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "French procurement, logistics, Salesforce migration, and a four-country EMEA enterprise rollout combine all of Sophie's strongest criteria; Maya lacks EMEA ownership and French, while Anna, Priya, Luis, and Jordan fit neither language nor motion."
+      }
+    },
+    {
+      "id": "lead_085",
+      "company": "Northstar Advisory Collective",
+      "employee_count": 310,
+      "country": "United Kingdom",
+      "region": "EMEA",
+      "industry": "Professional services",
+      "source": "Executive referral",
+      "product_interest": "Client development CRM",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 88,
+      "requested_features": [
+        "Ireland and UK rollout",
+        "engagement conflict controls",
+        "SSO",
+        "custom procurement"
+      ],
+      "inbound_message": "Our consulting practices in London and Dublin need one business-development system. The key work is mapping engagement-conflict rules and completing our supplier due diligence; this is not a basic contact migration.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "obvious",
+        "reason": "A UK-and-Ireland professional-services rollout with custom controls and supplier due diligence matches Sophie's EMEA enterprise and industry focus; generic identity expertise or Americas/APAC/DACH/SMB coverage is less relevant than the regional buying motion."
+      }
+    },
+    {
+      "id": "lead_086",
+      "company": "Linden Lane Tutors",
+      "employee_count": 22,
+      "country": "Ireland",
+      "region": "EMEA",
+      "industry": "Local services",
+      "source": "Organic search",
+      "product_interest": "Lead follow-up automation",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 7,
+      "requested_features": [
+        "web lead capture",
+        "email automation",
+        "calendar booking"
+      ],
+      "inbound_message": "We're a seven-user tutoring business serving families around Dublin. Everything is in spreadsheets today; we'd like website enquiries to trigger emails and let parents book a consultation. English onboarding and standard monthly terms are fine.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "Ireland superficially favors Sophie, but the explicit seven-user, English-speaking local-service deployment has no enterprise procurement or regional complexity and therefore fits Jordan's global SMB fast-start remit better than any regional enterprise profile."
+      }
+    },
+    {
+      "id": "lead_087",
+      "company": "Pineglass Bioinformatics",
+      "employee_count": 68,
+      "country": "United States",
+      "region": "North America",
+      "industry": "B2B SaaS",
+      "source": "Security whitepaper download",
+      "product_interest": "Partner and sales CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 34,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "audit logs",
+        "negotiated DPA"
+      ],
+      "inbound_message": "Although only 34 employees will log in, the CRM will hold collaboration records for pharmaceutical customers. Their vendor clauses flow down to us, so security needs SAML, SCIM, immutable audit exports, a penetration-test package, and a negotiated DPA before any migration.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "The small seat count and HubSpot source could suggest Jordan or Luis, but pharma-driven security controls, SCIM, audit evidence, and legal negotiation create an enterprise-grade North American buying process tailored to Maya; non-Americas specialists add no offsetting advantage."
+      }
+    },
+    {
+      "id": "lead_088",
+      "company": "GraniteSpan Equipment",
+      "employee_count": 920,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Industrial distribution",
+      "source": "Website form",
+      "product_interest": "Inside sales pilot",
+      "current_crm": "HubSpot",
+      "estimated_seats": 26,
+      "requested_features": [
+        "HubSpot migration",
+        "email sync",
+        "standard ERP connector"
+      ],
+      "inbound_message": "Corporate systems are not changing. Our 26-person replacement-parts desk has budget for its own CRM and wants to copy one HubSpot pipeline, connect email, and use the standard NetSuite connector. We can sign on standard terms and want a decision in three weeks.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "edge",
+        "reason": "Despite the 920-employee parent, this is a ring-fenced 26-seat HubSpot migration with standard integration, standard terms, and a fast cycle, favoring Luis over Maya's enterprise motion; industry, language, and geography provide no case for the other four reps."
+      }
+    },
+    {
+      "id": "lead_089",
+      "company": "Lucerne Process Cloud AG",
+      "employee_count": 135,
+      "country": "Switzerland",
+      "region": "DACH",
+      "industry": "B2B SaaS",
+      "source": "Product comparison site",
+      "product_interest": "Sales and renewal CRM",
+      "current_crm": "Pipedrive",
+      "estimated_seats": 39,
+      "requested_features": [
+        "EU data residency",
+        "GDPR controls",
+        "German-language onboarding",
+        "renewal workflows"
+      ],
+      "inbound_message": "Wir sind kein Grossunternehmen, aber unsere Kunden in Deutschland verlangen EU-Datenhaltung und dokumentierte Löschfristen. Die 39 Nutzer in Zürich und München benötigen Workshops auf Deutsch sowie getrennte Vertriebs- und Renewal-Prozesse.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "Only 39 seats might resemble an SMB deal, but Swiss-German ownership, German workshops, EU residency, and GDPR lifecycle requirements make Anna materially stronger than Jordan or Luis; the other enterprise reps lack the DACH language and compliance combination."
+      }
+    },
+    {
+      "id": "lead_090",
+      "company": "CoralGrid Energy Software",
+      "employee_count": 115,
+      "country": "New Zealand",
+      "region": "APAC",
+      "industry": "Technology",
+      "source": "Founder referral",
+      "product_interest": "Customer expansion CRM",
+      "current_crm": "HubSpot",
+      "estimated_seats": 48,
+      "requested_features": [
+        "Australia and New Zealand rollout",
+        "usage-data API",
+        "regional permissions",
+        "SSO"
+      ],
+      "inbound_message": "We're 115 people, but this will support expansion teams in Auckland, Sydney, and Perth. Account health must ingest hourly product-usage data from our lake, and Australian resellers must see only their assigned portfolios. We also require SSO from day one.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "edge",
+        "reason": "The modest company size and HubSpot origin could point to Luis, but an Australia-New Zealand rollout, hourly product API, reseller permissions, and identity requirements constitute Priya's complex APAC implementation specialty; no EMEA or North American rep has a stronger claim."
+      }
+    },
+    {
+      "id": "lead_091",
+      "company": "BalticArc Software Group",
+      "employee_count": 190,
+      "country": "Estonia",
+      "region": "EMEA",
+      "industry": "Enterprise software",
+      "source": "Conference scan",
+      "product_interest": "Multi-entity CRM",
+      "current_crm": "Salesforce",
+      "estimated_seats": 72,
+      "requested_features": [
+        "Salesforce migration",
+        "multi-country permissions",
+        "EU data residency",
+        "procurement support"
+      ],
+      "inbound_message": "Our Tallinn headquarters is combining commercial teams acquired in Finland, Poland, and the Netherlands. We need to unwind Salesforce sharing rules, retain EU hosting, and contract through our Dutch entity. All evaluation meetings will be in English.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "edge",
+        "reason": "Although under Sophie's typical size and carrying an EU-residency signal that could attract Anna, the decisive factors are an English multi-country EMEA consolidation, Dutch contracting, Salesforce complexity, and no DACH or German requirement, making Sophie the best of the six."
+      }
+    },
+    {
+      "id": "lead_092",
+      "company": "Sunroom Demand Studio",
+      "employee_count": 47,
+      "country": "Singapore",
+      "region": "APAC",
+      "industry": "Marketing agency",
+      "source": "Community referral",
+      "product_interest": "Agency marketing automation",
+      "current_crm": "GoHighLevel",
+      "estimated_seats": 19,
+      "requested_features": [
+        "GoHighLevel migration",
+        "client subaccounts",
+        "SMS automation",
+        "calendar booking"
+      ],
+      "inbound_message": "We're an English-speaking agency with 19 users and twelve HighLevel client subaccounts. We want a like-for-like migration of funnels, SMS follow-ups, and calendars. No custom API, regional rollout, or security review is involved.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "edge",
+        "reason": "Singapore geography alone suggests Priya, but the lead explicitly rules out APAC implementation complexity and instead presents Jordan's exact global English-speaking SMB, agency, GoHighLevel, and fast-start pattern; none of the other regional reps adds relevant expertise."
+      }
+    },
+    {
+      "id": "lead_093",
+      "company": "Iberon Mobility Services",
+      "employee_count": 540,
+      "country": "Spain",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Demo request",
+      "product_interest": "Fleet partnerships CRM",
+      "current_crm": "Zoho CRM",
+      "estimated_seats": 105,
+      "requested_features": [
+        "Spain and Portugal rollout",
+        "partner hierarchy",
+        "SSO",
+        "formal procurement"
+      ],
+      "inbound_message": "The Madrid procurement team is selecting a system for 105 partnership users in Spain and Portugal. Product sessions can be in English, but we need support for distributor hierarchies, SSO, and a scored tender with contractual workshops.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "edge",
+        "reason": "Spanish language might superficially favor Luis, but the buyer explicitly works in English and the Southern European logistics tender is enterprise-scale, multi-country, and procurement-heavy, which fits Sophie better than the Americas mid-market rep or any DACH, APAC, or SMB specialist."
+      }
+    },
+    {
+      "id": "lead_094",
+      "company": "MapleThread Commerce",
+      "employee_count": 74,
+      "country": "Canada",
+      "region": "North America",
+      "industry": "E-commerce",
+      "source": "Paid search",
+      "product_interest": "Sales pipeline automation",
+      "current_crm": "HubSpot",
+      "estimated_seats": 23,
+      "requested_features": [
+        "HubSpot migration",
+        "Shopify integration",
+        "bilingual data templates",
+        "email sequences"
+      ],
+      "inbound_message": "We sell wholesale across Canada and need 23 reps moved from HubSpot. Shopify orders should appear on accounts, and our team can run the evaluation in English; French is needed only in customer-facing field labels. Standard onboarding is enough.",
+      "evaluation": {
+        "expected_route": "luis_ortega",
+        "difficulty": "ambiguous",
+        "reason": "At the SMB boundary, Jordan is plausible, but the decisive HubSpot migration, e-commerce workflow, Shopify integration, and Canadian mid-market-style sales team favor Luis; English evaluation removes any unsupported-language concern, and there is no enterprise or non-Americas complexity."
+      }
+    },
+    {
+      "id": "lead_095",
+      "company": "Juniper Harbor Credit Union",
+      "employee_count": 260,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Financial services",
+      "source": "Compliance webinar",
+      "product_interest": "Business banking CRM",
+      "current_crm": "Microsoft Dynamics",
+      "estimated_seats": 82,
+      "requested_features": [
+        "SAML SSO",
+        "SCIM",
+        "audit logs",
+        "security review"
+      ],
+      "inbound_message": "Our business-banking group needs 82 seats. The implementation must pass third-party risk, records-retention, and access-control reviews; Okta provisioning and exportable audit history are mandatory. Our board's technology committee approves the vendor after legal review.",
+      "evaluation": {
+        "expected_route": "maya_chen",
+        "difficulty": "edge",
+        "reason": "The employee count sits in Luis's mid-market range, but regulated US financial services, board oversight, SSO/SCIM, audit retention, third-party risk, and legal review make Maya's complex-enterprise expertise decisive; the four non-Americas or SMB profiles are weaker still."
+      }
+    },
+    {
+      "id": "lead_096",
+      "company": "WienPack Industries GmbH",
+      "employee_count": 1600,
+      "country": "Austria",
+      "region": "DACH",
+      "industry": "Manufacturing",
+      "source": "Partner referral",
+      "product_interest": "Division sales CRM",
+      "current_crm": "Legacy on-premise CRM",
+      "estimated_seats": 67,
+      "requested_features": [
+        "EU data residency",
+        "ERP integration",
+        "works council documentation",
+        "German-language training"
+      ],
+      "inbound_message": "The initial scope is only our 67-user flexible-packaging division, not all 1,600 employees. Even so, our Betriebsrat requires documentation, training must be in German, data must stay in the EU, and opportunities must sync with our production ERP.",
+      "evaluation": {
+        "expected_route": "anna_keller",
+        "difficulty": "edge",
+        "reason": "The limited divisional scope argues against a generic enterprise assignment to Maya or Sophie, while Austrian manufacturing, German training, works-council review, EU residency, and ERP integration precisely favor Anna over all five alternatives."
+      }
+    },
+    {
+      "id": "lead_097",
+      "company": "KaveriRoute Platforms",
+      "employee_count": 290,
+      "country": "India",
+      "region": "APAC",
+      "industry": "SaaS",
+      "source": "Outbound reply",
+      "product_interest": "Revenue operations platform",
+      "current_crm": "Salesforce",
+      "estimated_seats": 76,
+      "requested_features": [
+        "Salesforce data sync",
+        "India and Japan rollout",
+        "custom API integration",
+        "role-based access"
+      ],
+      "inbound_message": "Our revenue team in Bengaluru is leading this, with a second operating group in Tokyo. Salesforce remains the system of record, so we need bidirectional opportunity sync plus a custom entitlement API. Commercial discussions can be in English; our internal team will handle Japanese localization.",
+      "evaluation": {
+        "expected_route": "priya_nair",
+        "difficulty": "ambiguous",
+        "reason": "Salesforce integration could suggest Maya or Sophie, but it is not a migration: the harder problem is an India-led, India-Japan rollout with custom bidirectional APIs and regional access design, all within Priya's APAC remit; English buying removes a language gap."
+      }
+    },
+    {
+      "id": "lead_098",
+      "company": "Cobalt Kettle Ventures",
+      "employee_count": 58,
+      "country": "United States",
+      "region": "North America",
+      "industry": "Startup accelerator",
+      "source": "Founder referral",
+      "product_interest": "Portfolio relationship CRM",
+      "current_crm": "Airtable",
+      "estimated_seats": 52,
+      "requested_features": [
+        "contact import",
+        "email sync",
+        "simple custom fields",
+        "fast onboarding"
+      ],
+      "inbound_message": "Nearly our whole company will use this, so the seat count looks high for us, but the workflow is simple: import founders and mentors from Airtable, sync Gmail, add a few portfolio fields, and start next month. We have no security questionnaire or custom integration.",
+      "evaluation": {
+        "expected_route": "jordan_brooks",
+        "difficulty": "ambiguous",
+        "reason": "The 52-seat scope may resemble mid-market, yet the 58-person US startup has a deliberately simple import, standard email sync, no procurement, and no custom integration, matching Jordan's startup fast-start motion better than Luis or any enterprise regional specialist."
+      }
+    },
+    {
+      "id": "lead_099",
+      "company": "AtlasQuay Marine Services",
+      "employee_count": 230,
+      "country": "Morocco",
+      "region": "EMEA",
+      "industry": "Logistics",
+      "source": "Industry association referral",
+      "product_interest": "Commercial operations CRM",
+      "current_crm": "Spreadsheets",
+      "estimated_seats": 61,
+      "requested_features": [
+        "France and Morocco rollout",
+        "French-language workshops",
+        "contract approval workflows",
+        "regional permissions"
+      ],
+      "inbound_message": "Notre siège de Casablanca et notre bureau de Marseille veulent harmoniser le suivi des contrats portuaires. Les ateliers, la validation juridique et la formation doivent se dérouler en français, avec des droits séparés pour chaque pays.",
+      "evaluation": {
+        "expected_route": "sophie_martin",
+        "difficulty": "ambiguous",
+        "reason": "Morocco is outside Sophie's named primary countries and the account is below her usual size, but French-only workshops, Marseille participation, cross-country permissions, legal workflow, and logistics specialization make her clearly stronger than the English/German/Hindi/Spanish-only alternatives."
+      }
+    },
+    {
+      "id": "lead_100",
+      "company": "Hikari Field Robotics",
+      "employee_count": 145,
+      "country": "Japan",
+      "region": "APAC",
+      "industry": "Industrial technology",
+      "source": "Website form",
+      "product_interest": "Sales CRM evaluation",
+      "current_crm": "Unknown",
+      "estimated_seats": null,
+      "requested_features": [],
+      "inbound_message": "営業管理システムを検討しています。要件定義、製品説明、契約交渉、導入支援はすべて日本語で対応できる担当者を希望します。利用人数や連携対象は社内でまだ確認中です。",
+      "evaluation": {
+        "expected_route": "manual_review",
+        "difficulty": "ambiguous",
+        "reason": "The lead explicitly requires the entire discovery, demo, contracting, and implementation process in Japanese, which none of the six reps speaks, and it provides no seat count, CRM, integrations, or feature requirements to support a complexity-based exception; manual review is therefore necessary."
+      }
     }
   ]
 }

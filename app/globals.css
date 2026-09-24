@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4f5f1;
+  --foreground: #172033;
 }
 
 @theme inline {
@@ -12,15 +12,124 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.compact-scroll {
+  scrollbar-color: rgb(203 213 225) transparent;
+  scrollbar-width: thin;
+}
+
+.jev-grid {
+  background-image:
+    linear-gradient(rgba(148, 184, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 184, 255, 0.1) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.jev-orb {
+  position: relative;
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  place-items: center;
+  border: 1px solid rgb(147 197 253 / 45%);
+  border-radius: 1rem;
+  background: linear-gradient(145deg, #4f8cff, #1e5cd7);
+  box-shadow: 0 10px 30px rgb(37 99 235 / 35%);
+  font-weight: 750;
+}
+
+.jev-orb.is-thinking::before,
+.jev-orb.is-thinking::after {
+  position: absolute;
+  inset: -0.4rem;
+  border: 1px solid rgb(96 165 250 / 45%);
+  border-radius: 1.25rem;
+  content: "";
+  animation: jev-pulse 1.8s ease-out infinite;
+}
+
+.jev-orb.is-thinking::after {
+  animation-delay: 0.9s;
+}
+
+.lead-queue-item {
+  animation: queue-arrival 420ms both cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.lead-queue-item.is-active {
+  transform: translateX(4px);
+}
+
+.rep-card.is-selected {
+  animation: destination-arrival 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.probability-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.probability-shimmer::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgb(147 197 253 / 28%), transparent);
+  content: "";
+  transform: translateX(-100%);
+  animation: probability-scan 1.35s infinite;
+}
+
+@keyframes queue-arrival {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes jev-pulse {
+  0% {
+    opacity: 0.8;
+    transform: scale(0.88);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.35);
+  }
+}
+
+@keyframes destination-arrival {
+  0% {
+    box-shadow: 0 0 0 0 rgb(59 130 246 / 45%);
+    transform: translateX(-8px);
+  }
+  60% {
+    box-shadow: 0 0 0 8px rgb(59 130 246 / 0%);
+  }
+}
+
+@keyframes probability-scan {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

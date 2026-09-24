@@ -42,3 +42,26 @@ export type RepProfile = {
   soft_capacity: number;
   routing_criteria: string;
 };
+
+export type EvalResult = "pass" | "fail";
+
+export type EngineOutcome = {
+  routeChoice: string | null;
+  evalResult: EvalResult | null;
+  durationMs: number;
+  error?: string;
+};
+
+export type JevOutcome = EngineOutcome & {
+  confidence?: number;
+  probabilities?: Record<string, number>;
+};
+
+export type RoutingResult = {
+  leadId: string;
+  expectedRoute: string;
+  difficulty: string;
+  evaluationReason: string;
+  jev: JevOutcome;
+  static: EngineOutcome;
+};
